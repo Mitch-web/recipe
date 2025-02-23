@@ -1,0 +1,55 @@
+.categories-list {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+}
+
+.category-section {
+    margin-bottom: 20px;
+}
+
+.recipe-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.recipe-category-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card h4 {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.view-all {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}

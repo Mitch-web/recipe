@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: baseline; /* Вертикальное центрирование */
+    background-color: #333; /* Темный фон */
+    color: white; /* Цвет текста */
+    max-height: 50px;
+    padding-bottom: 1em;
+}
+
+/* Стили для логотипа */
+.logo {
+    /*font-size: 1.5em; !* Размер шрифта для логотипа *!*/
+    font-weight: bold; /* Жирный шрифт */
+    text-align: end;
+}
+
+/* Стили для навигационных ссылок */
+.nav-links {
+    list-style: none; /* Убираем маркеры списка */
+    display: flex; /* Выстраиваем в ряд */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.nav-links li {
+    margin-left: 2em; /* Отступы между элементами */
+}
+
+.nav-links a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: white; /* Цвет ссылок */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+.nav-links a:hover {
+    color: #ff5722; /* Цвет при наведении */
+}
+
+/* Активный класс для текущей ссылки */
+.nav-links .active {
+    font-weight: bold; /* Жирный текст для активной ссылки */
+    color: #ffcc00; /* Цвет для активной ссылки */
+}
