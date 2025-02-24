@@ -31,6 +31,10 @@ This is a **Recipe Catalog API** built with Spring Boot, MongoDB, and Redis. The
    npm start
    npm run watch "for detecting code changes"
    ```
+5. Download Redis or run it via Docker container. It should work on 
+    ```sh
+   localhost:6379
+    ```
 
 Your API should now be running on `http://localhost:8080`. 🚀🚀🚀
 
