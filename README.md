@@ -35,6 +35,7 @@ This is a **Recipe Catalog API** built with Spring Boot, MongoDB, and Redis. The
     ```sh
    localhost:6379
     ```
+6. Load initial data using Mongosh from file '/resources/initial_data.js'
 
 Your API should now be running on `http://localhost:8080`. 🚀🚀🚀
 
